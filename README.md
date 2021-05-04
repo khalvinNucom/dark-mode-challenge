@@ -18,6 +18,7 @@ None
 
 -   There is an existing dark mode button provided. Add functionality to switch to dark mode when it is clicked
 -   Use the existing dark mode scss file and add that to the root `html` element as a class
+-   As an alternative you can use theming from styled components
 -   Add dark-mode switching functionality to the _existing_ dark-mode button
 -   Once in Dark mode:
     -   The button icon should be `faSun`
