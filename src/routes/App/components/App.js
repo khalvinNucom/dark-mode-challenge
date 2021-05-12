@@ -5,7 +5,7 @@ import '../styles/_app.scss';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app ">
       <div className="level">
         <div>
           <h1 className="title">Dark Mode Challenge</h1>
