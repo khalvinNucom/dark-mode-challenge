@@ -10,12 +10,16 @@ function App() {
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode)
 
+    // NOTE: add class to root HTML
     if (!isDarkMode) return document.querySelector('html').classList.add('dark-mode')
     document.querySelector('html').classList.remove('dark-mode')
   }
 
   return (
-    <div className={clsx('app',isDarkMode && 'dark-mode' ) }>
+    // NOTE: conditionally add class to html DOM element 
+    // <div className={clsx('app',isDarkMode && 'dark-mode' ) }>
+    
+    <div className='app'>
       <div className="level">
         <div>
           <h1 className="title">Dark Mode Challenge</h1>
